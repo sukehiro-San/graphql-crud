@@ -1,0 +1,35 @@
+{
+  "name": "graphql-test-server",
+  "version": "1.0.0",
+  "description": "This is a test test task which implements Book Management System using GraphQL and MEAN Stack",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sukehiro-San/graphql-crud.git"
+  },
+  "author": "Sunny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sukehiro-San/graphql-crud/issues"
+  },
+  "homepage": "https://github.com/sukehiro-San/graphql-crud#readme",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/graphql": "^14.2.3",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^22.7.6",
+    "apollo-server-express": "^3.13.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "graphql": "^16.9.0",
+    "graphql-subscriptions": "^2.0.0",
+    "mongoose": "^8.7.1",
+    "ts-node": "^10.9.2"
+  }
+}
